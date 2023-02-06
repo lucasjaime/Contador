@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("Imagenes/Coderhouse.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+#contador{
+    font-size: 5rem;
+}
+.titulo{
+    color: black;
+}
+.btn{
+    padding: 3vh;
+    background-color: yellow;
+    font-size: 1rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+}
+#contenedor{
+    padding: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
